@@ -1,0 +1,23 @@
+<html>
+
+<head>
+    <!-- Set character encoding to UTF-8 -->
+    <meta charset="UTF-8">
+    <!-- Title of the webpage -->
+    <title>Hand Gesture Recognition</title>
+    <!-- Include the ONNX Runtime Web JavaScript library from CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/onnxruntime-web/dist/ort.min.js"></script>
+    <!-- Link the JavaScript file for hand gesture recognition -->
+    <script src="object_detector.js"></script>
+</head>
+
+<body>
+    <!-- Video element for displaying the camera feed -->
+    <video id="cameraFeed" style="display:none" autoplay></video>
+    <!-- Line break for spacing -->
+    <br />
+    <!-- Canvas element for rendering graphics or images -->
+    <canvas id="cameraStreamCanvas"></canvas>
+</body>
+
+</html>
